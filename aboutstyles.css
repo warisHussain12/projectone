@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto+Mono:ital@0;1&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: papayawhip; */
+}
+
+/* header {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+} */
+
+h1 {
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 128, 0);
+    /* background-color: hsla(120, 54%, 46%, 0.696);
+    */
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    /* position: fixed; */
+    top: 0;
+}
+
+nav {
+    border: 2px solid greenyellow;
+    margin-top: 0.5px;
+    padding: 0.7rem 0;
+    /* position: absolute; */
+    margin-bottom: 2rem;
+}
+
+a {
+    /* position: relative; */
+    padding: 0.5rem 1rem;
+    border: 2px solid greenyellow;
+    background-color: rgba(0, 128, 0, 0.849);
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bolder;
+    background-color: aliceblue;
+    color: black;
+}
+
+main {
+    width: 100%;
+    background:radial-gradient(papayawhip, rgba(153, 205, 50, 0.331));
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 1.7rem;
+    text-decoration: underline;
+}
+
+.container {
+    /* border: 2px solid red; */
+    width: 70vw;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+}
+
+.description {
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.mission {
+    font-size: 2rem;
+    text-shadow: 1.5px 1.5px 1px grey;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pmission {
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    color:dimgray;
+    border: 5px solid papayawhip;
+    margin-bottom: 2rem;
+}

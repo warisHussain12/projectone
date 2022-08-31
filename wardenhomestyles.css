@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto+Mono:ital@0;1&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 5px solid rgba(119, 136, 153, 0.566);
+    background: radial-gradient(gray, black);
+    margin: 0;
+}
+
+nav {
+    /* border: 2px solid firebrick; */
+    margin: 0;
+    /* background-color: white; */
+    margin-right: 4rem;
+}
+
+h1 {
+    color: rgba(255, 217, 0, 0.591);
+    text-align: center;
+}
+
+h2 {
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+
+main h1 {
+    border: 7rem solid transparent;
+    margin: 7rem;
+}
+
+body {
+    background: linear-gradient(to right, #8080805d, papayawhip);
+}
+
+main {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: grid;
+    position: fixed;
+    padding: 0.2rem;
+    margin: 8rem;
+    width: 40vw;
+    height: 50vh;
+    border: 2px solid black;
+    background-color: rgba(70, 131, 180, 0.068);
+    border-radius: 1rem;
+}
+
+.container p {
+    padding: 2rem 2rem 0 2rem;
+    font-size: 1.7rem;
+}
+
+button {
+    border-radius: 0.3em;
+    margin-bottom: 0.3rem;
+    font-weight: lighter;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.1rem;
+}
+
+section button {
+    margin-top: 4rem;
+}
+
+section button:hover {
+    background-color: steelblue;
+}
+
+button:hover {
+    background-color: firebrick;
+    color:white;
+}
+
+button a, button a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+button a:hover {
+    color: white;
+}
+
+.content {
+    margin: 2rem;
+    /* border: 2px solid black; */
+    padding: 5rem;
+}
+
+.complaintBox {
+    border: 2px solid greenyellow;
+    display: grid;
+    padding: 2rem;
+    min-width: 50vw;
+    min-height: 100vh;
+    margin: 2rem;
+}
+
+.top {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.complaintBox p {
+    font-size: 1.1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.openComplaints {
+    background-color: rgba(0, 255, 255, 0.201);
+}
+.foodMess {
+    background-color: rgba(212, 255, 0, 0.201);
+}
+.washRestroom {
+    background-color: rgba(187, 0, 255, 0.201);
+}
+.electricity {
+    background-color: rgba(255, 89, 0, 0.201);
+}
+.forwardWarden{
+    background-color: aliceblue;
+}
+.others {
+    background-color: rgba(255, 200, 0, 0.201);
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    position: fixed;
+    background: linear-gradient(to left, papayawhip, black);
+    /* background-color: black; */
+    font-size: 0.5rem;
+    border: 2px solid papayawhip;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer h1 {
+    color: white;
+}
